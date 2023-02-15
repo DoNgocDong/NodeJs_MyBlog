@@ -1,0 +1,35 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src\\main.js",
+  "scripts": {
+    "start": "nodemon --inspect src\\main.js",
+    "sass": "node-sass -w src\\resources\\scss\\app.scss src\\public\\css\\app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoNgocDong/NodeJs_MyBlog.git"
+  },
+  "keywords": [
+    "myBlog",
+    "blog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DoNgocDong/NodeJs_MyBlog/issues"
+  },
+  "homepage": "https://github.com/DoNgocDong/NodeJs_MyBlog#readme",
+  "dependencies": {
+    "@npmcli/fs": "^3.1.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
